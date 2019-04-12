@@ -1349,3 +1349,46 @@ Portfolio Projects
 .justify {
     text-align: justify;
 }
+
+
+#modal-eventos{
+  background-image: url('../img/servicios/eventos2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #4f7173;
+  background-blend-mode: luminosity;
+  opacity: 0.8;
+  padding: 5%;
+}
+#modal-comunicacion{
+  background-image: url('../img/servicios/digital_1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #4f7173;
+  background-blend-mode: luminosity;
+  opacity: 0.8;
+  padding: 5%;
+}
+#modal-foto{
+  background-image: url('../img/servicios/digital_1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #4f7173;
+  background-blend-mode: luminosity;
+  opacity: 0.8;
+  padding: 5%;
+}
+.modal-header-servicios{
+  background-color: white !important;
+}
+
+.icon-servicios{
+  border-radius: 100%;
+  border-color: #777777;
+  color: #4f7173;
+  padding: 2%;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+
+}
