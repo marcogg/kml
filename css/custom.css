@@ -1370,7 +1370,16 @@ Portfolio Projects
   padding: 5%;
 }
 #modal-foto{
-  background-image: url('../img/servicios/digital_1.jpg');
+  background-image: url('../img/servicios/foto_video.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #4f7173;
+  background-blend-mode: luminosity;
+  opacity: 0.8;
+  padding: 5%;
+}
+#modal-diseno{
+  background-image: url('../img/servicios/diseno.jpg');
   background-position: center;
   background-size: cover;
   background-color: #4f7173;
