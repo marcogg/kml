@@ -84,17 +84,33 @@
 
 		<div class="body">
         
-			<header id="header" class="header-narrow header-transparent" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 1, 'stickySetTop': '1'}">
-            
+			        <header id="header" class="header-narrow header-transparent"
+        data-plugin-options="{
+			'stickyEnabled': true, 
+			'stickyEnableOnBoxed': true, 
+			'stickyEnableOnMobile': true, 
+			'stickyStartAt': 90, 
+			'stickySetTop': '0', 
+			'stickyChangeLogo': true
+			}">
+			
 				<div class="header-body">
 					<div class="header-container container">
 						<div class="header-row">
+						
 							<div class="header-column">
+							
 								<div class="header-logo">
 									<a href="index.html">
-										<img alt="KML MEDIA" width="120" height="60" src="img/logo-default-slim-rojo.png">
+										<img
+										alt="KML media Strategy Agency"
+										width="0" height="0" 
+										data-sticky-width="120" 
+										data-sticky-height="60"
+										data-sticky-top="-25" src="img/logo-default-slim.png">
 									</a>
 								</div>
+								
 							</div>
                             
                             
@@ -107,7 +123,7 @@
 										</button>
 										<ul class="header-social-icons social-icons hidden-xs">
 											<li class="so
-                                            cial-icons-facebook"><a href="https://www.facebook.com/KMLmedia" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                            cial-icons-facebook"><a href="https://www.facebook.com/KMLmedia" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                             
 											<!--- <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li> 
 											<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>--->
@@ -133,11 +149,11 @@
 													</li>
                                                     
                                                     
-													<li class="dropdown">
-														<a class="dropdown-toggle" href="#">
+													<li class="" id="btn-servicios">
+														<a href="index.html#servicios">
 															Servicios
 														</a>
-                                                        <ul class="dropdown-menu">
+                                                        <!--<ul class="dropdown-menu">
 															<li><a href="motores-de-busqueda-seo.html">Optimización para motores de búsqueda</a></li>
 															<li><a href="agencia-redes-sociales.html">Redes sociales</a></li>
                                                             <li><a href="estrategia-marketing-digital.html">Estrategia de campañas</a></li>
@@ -148,13 +164,14 @@
                                                             <li><a href="servicio-email-marketing.html">Mantenimiento de prospectos</a></li>
                                                             <li><a href="desarrollo-web-e-commerce.html">e-Commerce</a></li>
                                                             <li><a href="empresa-de-generacion-de-leads.html">Captación de leads</a></li>
-                                                            <li><a href="organizacion-eventos-corporativos.html">Otros servicios</a></li> 
+                                                            <li><a href="organizacion-eventos-corporativos.html">Otros servicios</a></li>     
                                                             
-														</ul>
+                                                            
+														</ul>-->
                                            			</li>
                                                     
-                                                    
-													<!--- <li class="">
+                                                  <!---   
+													<li class="">
 														<a href="inbound-marketing-kml-media.html">
 															Inbound Marketing
 														</a>
@@ -181,8 +198,11 @@
 														<a href="contacto-kml-media.html">
 															Contacto
 														</a>
+                                                        
 														
 													</li>
+                                                    
+                                               
                                                     
                                                     
                                                     
